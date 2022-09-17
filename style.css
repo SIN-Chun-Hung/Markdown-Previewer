@@ -1,0 +1,27 @@
+#mdp-background {
+  color: black;
+  background-color: #DCDCDC;
+  font-family: monospace, Arial, sans-serif, Helvetica;
+  min-height: 100vh;
+}
+
+#mark-pre-boxes {
+  display: flex;
+  justify-content: space-around;
+}
+
+.title {
+  text-align: center;
+}
+
+#preview {
+  border: 1px solid black;
+}
+
+#editor, #preview {
+  background-color: #F8F8FF;
+  width: 40vw;
+  min-height: 80vh;
+  overflow: hidden;
+  word-wrap: break-word;
+}
